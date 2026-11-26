@@ -1,0 +1,23 @@
+# --- داده خام: به دلیل حجم و مجوز، در مخزن نگهداری نمی‌شود ---
+/data/*.csv
+/data/*.zip
+/data/*.parquet
+
+# --- محیط اجرا و فایل‌های موقت ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.tmp
+*.log
+debug.log
+.DS_Store
+Thumbs.db
+
+# --- خروجی‌های سنگین و بازتولیدپذیر ---
+/outputs/cache/
+/reports/*.html
+*.pkl
+*.joblib
